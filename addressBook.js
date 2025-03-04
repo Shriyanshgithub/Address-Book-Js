@@ -80,12 +80,12 @@ function countAddressBook(){
 //uc-7
 function removeDuplicates(){
     let uniqueAddressBooks = [...new Set(addressBookArray)];
-    addressBookArray = uniqueAddressBooks;
+    return addressBookArray = uniqueAddressBooks;
 }
 
 //uc-8
 function findAddressBookByCity(city){
-    addressBookArray = addressBookArray.filter(addressBook => addressBook.city === city);
+   return addressBookArray = addressBookArray.filter(addressBook => addressBook.city === city);
 }
 
 function findAddressBookByState(state){
