@@ -91,3 +91,14 @@ function findAddressBookByCity(city){
 function findAddressBookByState(state){
     addressBookArray = addressBookArray.filter(addressBook => addressBook.state === state);
 }
+
+//uc-9
+function viewAddressBookByCity(city){
+   return  addressBookArray = addressBookArray.filter(addressBook => addressBook.city === city);
+}
+
+function findAddressBookByState(state){
+    return addressBookArray = addressBookArray.filter(addressBook => addressBook.state === state);
+}
+
+
