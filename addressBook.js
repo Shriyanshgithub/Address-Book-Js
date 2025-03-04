@@ -57,6 +57,16 @@ function addressBook(addressBook){
     addressBookArray.push(addressBook);
 }
 
+//uc-4
+function updateAddressBook(firstName, updateAddressBook){
+    for(let addressBook of addressBookArray){
+        if(addressBook.firstName === firstName){
+            Object.assign(addressBook, updateAddressBook);
+            return;
+        }
+    }
+}
+
 
 
 
