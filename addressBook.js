@@ -110,4 +110,7 @@ function countAddressBookByState(state){
     findAddressBookByState(state).length;
 }
 
-
+//uc-11
+function sortAddressBookByName(){
+    addressBookArray.sort((a,b) => a.name[0] - b.name[0]);
+}
