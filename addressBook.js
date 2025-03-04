@@ -48,7 +48,13 @@ class AddressBook{
         }
 
   }
+ 
+}
 
+//uc-3
+const addressBookArray = []
+function addressBook(addressBook){
+    addressBookArray.push(addressBook);
 }
 
 
