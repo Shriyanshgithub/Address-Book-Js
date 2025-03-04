@@ -101,4 +101,13 @@ function findAddressBookByState(state){
     return addressBookArray = addressBookArray.filter(addressBook => addressBook.state === state);
 }
 
+//uc-10
+function countAddressBookByCity(city){
+    findAddressBookByCity(city).length;
+}
+
+function countAddressBookByState(state){
+    findAddressBookByState(state).length;
+}
+
 
