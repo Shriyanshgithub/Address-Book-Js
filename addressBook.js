@@ -83,3 +83,11 @@ function removeDuplicates(){
     addressBookArray = uniqueAddressBooks;
 }
 
+//uc-8
+function findAddressBookByCity(city){
+    addressBookArray = addressBookArray.filter(addressBook => addressBook.city === city);
+}
+
+function findAddressBookByState(state){
+    addressBookArray = addressBookArray.filter(addressBook => addressBook.state === state);
+}
