@@ -67,6 +67,11 @@ function updateAddressBook(firstName, updateAddressBook){
     }
 }
 
+//uc-5
+function deleteAddressBook(firstName){
+      addressBookArray = addressBookArray.filter(addressBook => addressBook.firstName === firstName);
+
+    }
 
 
 
