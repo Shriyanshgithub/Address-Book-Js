@@ -77,6 +77,9 @@ function countAddressBook(){
     return addressBookArray.reduce((length,_) => length+1,0);
 }
 
-
-
+//uc-7
+function removeDuplicates(){
+    let uniqueAddressBooks = [...new Set(addressBookArray)];
+    addressBookArray = uniqueAddressBooks;
+}
 
