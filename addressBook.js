@@ -112,5 +112,21 @@ function countAddressBookByState(state){
 
 //uc-11
 function sortAddressBookByName(){
-    addressBookArray.sort((a,b) => a.name[0] - b.name[0]);
+    addressBookArray.sort((a,b) => a.name.localCompare(b.name));
 }
+
+//uc-12
+function sortAddressBookByCity(){
+    addressBookArray.sort((a,b) => a.city.localCompare(b.city));
+}
+
+function sortAddressBookByState(){
+    addressBookArray.sort((a,b) => a.state.localCompare(b.state));
+}
+
+function sortAddressBookByZip(){
+    addressBookArray.sort((a,b) => a.zip.localCompare(b.zip));
+}
+
+
+
